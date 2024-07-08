@@ -29,3 +29,9 @@ var price6 = parseInt("10");
 var total_3 = price5 + price6;
 
 console.log("total_3", total_3);
+
+
+var gpa = "4.78"
+gpa = parseFloat(gpa)
+
+console.log(gpa);
