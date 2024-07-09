@@ -61,14 +61,30 @@ var b = 79;
 var c = 45;
 
 
-if (a > b && a > c) {
-    console.log(a, " is the largest number");
+// if (a > b && a > c) {
+//     console.log(a, " is the largest number");
+// }
+// else if (b > a && b > c) {
+//     console.log(b, " is the largest number");
+// }
+// else {
+//     console.log(c, " is the largest number");
+// }
+
+//alternate
+if (a > b) {
+    if (a > c) {
+        console.log(a, " is the largest number");
+    }
+    else {
+        console.log(c, " is the largest number");
+    }
 }
-else if (b > a && b > c) {
-    console.log(b, " is the largest number");
+else if (b > c) {
+    console.log(b, ' is the largest number');
 }
 else {
-    console.log(c, " is the largest number");
+    console.log(c, 'is the largest number');
 }
 
 
