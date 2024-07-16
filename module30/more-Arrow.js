@@ -29,3 +29,5 @@ const doMath = (x, y, z) => {
 }
 
 
+//explore: JS regular function and arrow function.
+
