@@ -5,7 +5,7 @@ const numbers = [2, 8, 4, 6, 3]
 
 function getDoubles(arr) {
     const output = []
-    for (const number of numbers) {
+    for (const number of arr) {
         const double = doubleIt(number)
         output.push(double)
     }
